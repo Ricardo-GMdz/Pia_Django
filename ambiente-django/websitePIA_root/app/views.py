@@ -16,3 +16,6 @@ def page4(request):
 
 def estanteria1(request):
     return render(request,"estanteria1.html")
+
+def estanteria2(request):
+    return render(request,"estanteria2.html")
