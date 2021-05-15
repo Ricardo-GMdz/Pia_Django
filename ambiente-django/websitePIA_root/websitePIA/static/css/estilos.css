@@ -1,3 +1,6 @@
+body{
+    background-color: papayawhip;
+}
 .menu{
     display: flex;
     height: 200px;
