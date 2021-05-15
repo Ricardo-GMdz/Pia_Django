@@ -84,3 +84,11 @@ a{
 .imagenesmuestra{
     display: flex;
 }
+
+
+.productos-estanteria img{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
