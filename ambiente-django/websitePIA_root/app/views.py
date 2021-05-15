@@ -13,3 +13,6 @@ def page3(request):
 
 def page4(request):
     return render(request,"page4.html")
+
+def estanteria_01(request):
+    return render(request,"estanteria_01.html")
