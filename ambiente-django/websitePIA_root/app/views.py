@@ -19,3 +19,9 @@ def estanteria1(request):
 
 def estanteria2(request):
     return render(request,"estanteria2.html")
+
+def estanteria3(request):
+    return render(request,"estanteria3.html")
+
+def estanteria4(request):
+    return render(request,"estanteria4.html")
