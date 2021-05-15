@@ -61,6 +61,18 @@ a{
     font-style: bold;
   }
 
+
+.estanteria {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-style: bold;
+  }
+
+
+
 .imagen img{
     display: inline-block;
     width: 266px;
