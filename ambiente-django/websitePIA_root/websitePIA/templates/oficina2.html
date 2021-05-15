@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muebles</title>
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <div class ="menu">
+        <div class="enlaces">
+            <a href="http://127.0.0.1:8000/">Estanterias</a>
+            <a href="page2">Lockers</a>
+            <a href="page3">Muebles de Oficina</a>
+            <a href="page4">Cajas Plasticas</a>
+        </div>
+    </div>
+    <div class = "descripcion">
+        <h1>Muebles de Oficina</h1> 
+    </div>
+
+
+    <article class= "productos-estanteria" align="justify" style="background-color: #242e2e; color: rgb(255, 255, 255); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 15px;">
+                <h4 align="center" style="background-color: #0f1111;color: lightblue;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 45px; 
+                border-width: 5px; border-color: rgb(192, 149, 233); border-style: solid; padding: 40px;">Muebles de Oficina</h4>
+                <section id="venta-muebles" class="estanterias-img" style="margin: 15px;">
+                    <img src="static/oficina_02.jpg"> 
+                    <h4 align="center"style="font-size: 40px;">Escritorio Sol ---- $2,199.00</h4><dl>
+                        
+                        <!-- dl -->
+                        <!-- span -->
+                    <dl>
+                        <dt> <span style="color: lightseagreen;"> <strong> DESCRIPCION</span></strong></dt>
+                        <dd>Tener orden te motiva y relaja al momento de estar trabajando, por lo tanto debes de agregar este escritorio modelo Sol para que acomodes tu 
+                            computadora, ya sea desktop o portátil. Incluye dos prácticos y amplios cajones con jaladeres de metal. Te ofrece gran durabilidad por su elaboración en
+                            melamina (tonalidad gris verdoso), así como patas de metal en color dorado. Prepara un espacio especial en casa para terminar los proyectos, 
+                            comienza por adquirir este escritorio Sol. 
+
+                        </dd>                        
+                      </dl>
+                    
+                    <!-- TABLE -->
+                    <table border=1 cellspacing="0" align="center">
+                        <tr> 
+                         <th colspan="5"> Características </th>
+                        </tr>
+                        
+                        <tr>
+                         <td rowspan="4"> INFO </td>
+                         <th> Descripcion </th>
+                         <th> Color </th>
+                         <th> Precio</th>
+                        </tr>
+                        
+                        <tr>
+                         <td align="center"> Madera industrializada de pino, 2 cajones.</td>
+                         <td align="center"> Gris</td>
+                         <td align="center"> 2199 mxn </td>
+                        </tr>
+                    </tbody> 
+                </table><hr>   
+                </section>
+
+    </article>

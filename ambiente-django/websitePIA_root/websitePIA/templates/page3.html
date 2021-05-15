@@ -1,14 +1,50 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estanteria</title>
+    <title>Muebles</title>
     <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 </head>
 <body>
-    <h1>Hola Soy la 3</h1>
+    <div class ="menu">
+        <div class="enlaces">
+            <a href="http://127.0.0.1:8000/">Estanterias</a>
+            <a href="page2">Lockers</a>
+            <a href="page4">Cajas Plasticas</a>
+        </div>
+    </div>
+    <div class = "descripcion">
+        <h1>Muebles de Oficina</h1> 
+    </div>
+
+    <div class="imagenesmuestra">
+        <div class="imagen"> 
+            <img src="static/oficina_01.jpg"style="width:100%">
+            <div class="estanteria">
+            <p><a href="http://127.0.0.1:8000/oficina1">Escritorio MOBI Volta</a></p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src= "static/oficina_02.jpg" style="width:100%">
+            <div class="estanteria">
+            <p><a href="http://127.0.0.1:8000/oficina2">Escritorio Sol</a></p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="static/oficina_03.jpg" style="width:100%">
+            <div class="estanteria">
+            <p><a href="http://127.0.0.1:8000/oficina3">Escritorio Bilbao</a></p>
+            </div>
+        </div>
+        <div class="imagen">
+            <img src="static/oficina_04.jpg" style="width:100%">
+            <div class="estanteria">
+            <p><a href="http://127.0.0.1:8000/oficina4">Silla para Oficina H3</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

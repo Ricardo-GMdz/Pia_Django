@@ -25,3 +25,16 @@ def estanteria3(request):
 
 def estanteria4(request):
     return render(request,"estanteria4.html")
+
+def oficina1(request):
+    return render(request,"oficina1.html")
+
+def oficina2(request):
+    return render(request,"oficina2.html")
+
+def oficina3(request):
+    return render(request,"oficina3.html")
+
+def oficina4(request):
+    return render(request,"oficina4.html")
+
